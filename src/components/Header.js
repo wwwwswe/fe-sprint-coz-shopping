@@ -7,12 +7,13 @@ import { SlPresent } from "react-icons/sl";
 import { HiOutlineStar } from "react-icons/hi";
 
 const HeaderContainer = styled.header`
-  position: fixed;
-  top: 0;
+  position: sticky;
+  top: 0; // 헤더 위치 고정
   width: 100%;
   height: 80px;
   background: #FFFFFF;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 `;
 
 const LogoLink = styled(Link)`
@@ -70,7 +71,7 @@ const DropdownItem = styled.div`
 
   &:not(:last-child) {
     border-bottom: 1px solid #ccc;
-    width: 89%;
+    width: 100%;
   }
 `;
 
