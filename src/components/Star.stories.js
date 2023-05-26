@@ -1,5 +1,5 @@
 import React from "react";
-import Star from "../components/Star";
+import Star from "./Star";
 import starOffImg from "../img/star-off.png";
 import starOnImg from "../img/star-on.png";
 
@@ -20,3 +20,5 @@ On.args = {
   productId: "456",
   isBookmarked: true,
 };
+
+// 이전 솔로프로젝트가 미완성이라 에러가 발생하는 것 같음
